@@ -1,0 +1,515 @@
+@media (max-width: 359px) {
+    .Cards{
+        background-color: #F8F8F8;
+        width: 360px;
+        .H1{
+            //width: 328px !important;
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+            font-size: 40px;
+            margin-bottom: 50px !important;
+        }
+        .Card{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+            margin-bottom: 20px !important;
+            margin-left: 16px !important;
+            margin-right: 16px !important;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            height: 254px !important;
+            border-radius: 16px;
+            background-color: #FFFFFF;
+
+            .Img{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .UserName{
+                margin-top: 20px !important;
+                margin-bottom: 20px !important;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            .UserData{
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        .button{
+            margin-top: 30px !important;
+            display:block;
+            margin-left: auto !important;
+            margin-right:auto !important;
+        }
+    }
+    .Request{
+        background-color: #F8F8F8;
+        width: 360px;
+        .H1{
+            text-align: center;
+            padding-bottom: 50px !important;
+        }
+        .PosSelector{
+            font-size: 16px;
+            margin-top: 43px !important;
+            margin-left: calc(50% - 164px) !important;
+        }
+        .RadioButtons{
+            margin-left: calc(50% - 164px) !important;
+            margin-bottom: 4px !important;
+            
+        }
+        .button{
+            display:block;
+            margin-left: auto !important;
+            margin-right:auto !important;
+        }
+        .FloatingLabelGroup{
+            left: calc(50% - 164px);
+            width: 328px;
+            input{
+                width: 328px;
+            }
+        }
+        .FileUploadWrapper{
+            left: calc(50% - 164px) !important;
+            width: 328px !important;
+        }
+        .ErrorMsg{
+            position: relative;
+            color: #CB3D40;
+            left: calc(50% - 150px);
+            font-size: 12px;
+        }
+        .ErrorPhoto{
+            position: relative;
+            color: #CB3D40;
+            left: calc(50% - 144px);
+            font-size: 12px;
+        }
+        .img{
+            display:block;
+            margin-left: auto !important;
+            margin-right:auto !important;
+            padding-bottom: 100px !important;
+        }
+    }
+}
+@media (min-width: 360px) {
+    .CardsBg{
+        background-color: #F8F8F8;
+    }
+    .Cards{
+        background-color: #F8F8F8;
+        .H1{
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+            font-size: 40px;
+            margin-bottom: 50px !important;
+        }
+        .Card{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+            margin-bottom: 20px !important;
+            margin-left: 16px !important;
+            margin-right: 16px !important;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            height: 254px !important;
+            border-radius: 16px;
+            background-color: #FFFFFF;
+
+            .Img{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .UserName{
+                margin-top: 20px !important;
+                margin-bottom: 20px !important;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            .UserData{
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+        }
+        .button{
+            margin-top: 30px !important;
+            display:block;
+            margin-left: auto !important;
+            margin-right:auto !important;
+        }
+    }
+    .Request{
+        padding-top: 140px !important;
+            
+            .H1{
+                
+                text-align: center;
+                padding-bottom: 50px !important;
+            }
+            .PosSelector{
+                font-size: 16px;
+                margin-top: 43px !important;
+                margin-left: calc(50% - 164px) !important;
+            }
+            .RadioButtons{
+                margin-left: calc(50% - 164px) !important;
+                margin-bottom: 4px !important;
+                
+            }
+            .button{
+                display:block;
+                margin-left: auto !important;
+                margin-right:auto !important;
+            }
+            .FloatingLabelGroup{
+                left: calc(50% - 164px);
+                width: 328px;
+                input{
+                    width: 328px;
+                }
+            }
+            .FileUploadWrapper{
+                left: calc(50% - 164px) !important;
+                width: 328px !important;
+            }
+            .ErrorMsg{
+                position: relative;
+                color: #CB3D40;
+                left: calc(50% - 150px);
+                font-size: 12px;
+            }
+            .ErrorPhoto{
+                position: relative;
+                color: #CB3D40;
+                left: calc(50% - 144px);
+                font-size: 12px;
+            }
+            .img{
+                display:block;
+                margin-left: auto !important;
+                margin-right:auto !important;
+                padding-bottom: 100px !important;
+            }
+    }
+}
+@media (min-width: 768px) {
+    .CardsBg{
+        background-color: #F8F8F8;
+    }
+    .Cards{
+        background-color: #F8F8F8;
+        padding-left: 24px !important;
+        padding-right: 9px !important;
+        
+        .H1{
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+            font-size: 40px;
+            margin-bottom: 50px !important;
+            br{
+                display: none;
+            }
+        }
+        .Card{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+            margin-bottom: 15px !important;
+            margin-left: 8px !important;
+            margin-right: 8px !important;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            height: 254px !important;
+            border-radius: 16px;
+            background-color: #FFFFFF;
+
+            .Img{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .UserName{
+                margin-top: 20px !important;
+                margin-bottom: 20px !important;
+            }
+            .UserData{
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        .button{
+            margin-top: 37px !important;
+            display:block;
+            margin-left: auto !important;
+            margin-right:auto !important;
+        }
+    }
+    .Request{
+        padding-top: 140px !important;
+            br{
+                display: none;
+            }
+            .H1{
+                text-align: center;
+                padding-bottom: 50px !important;
+            }
+            .PosSelector{
+                font-size: 16px;
+                margin-top: 43px !important;
+                margin-left: calc(50% - 190px) !important;
+            }
+            .RadioButtons{
+                margin-left: calc(50% - 190px) !important;
+                margin-bottom: 4px !important;
+                
+            }
+            .button{
+                margin-bottom: 50px !important;
+                display:block;
+                margin-left: auto !important;
+                margin-right:auto !important;
+            }
+            .FloatingLabelGroup{
+                left: calc(50% - 190px);
+                width: 380px;
+                input{
+                    width: 380px;
+                }
+            }
+            .FileUploadWrapper{
+                left: calc(50% - 190px) !important;
+                width: 380px !important;
+            }
+            .ErrorMsg{
+                position: relative;
+                color: #CB3D40;
+                left: calc(50% - 176px);
+                font-size: 12px;
+            }
+            .ErrorPhoto{
+                position: relative;
+                color: #CB3D40;
+                left: calc(50% - 170px);
+                font-size: 12px;
+            }
+            .img{
+                display:block;
+                margin-left: auto !important;
+                margin-right:auto !important;
+                padding-bottom: 100px !important;
+            }
+    }
+}
+@media (min-width: 1024px) {
+    .CardsBg{
+        background-color: #F8F8F8;
+    }
+    .Cards{
+        background-color: #F8F8F8;
+        padding-left: 45.5px !important;
+        padding-right: 28px !important;
+        .H1{
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+            font-size: 40px;
+            margin-bottom: 50px !important;
+            br{
+                display: none;
+            }
+        }
+        .Card{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+            margin-bottom: 30px !important;
+            margin-left: 14.5px !important;
+            margin-right: 14.5px !important;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            height: 254px !important;
+            border-radius: 16px;
+            background-color: #FFFFFF;
+
+            .Img{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .UserName{
+                margin-top: 20px !important;
+                margin-bottom: 20px !important;
+            }
+            .UserData{
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        .button{
+            margin-top: 20px !important;
+            display:block;
+            margin-left: auto !important;
+            margin-right:auto !important;
+        }
+    }
+
+    .Request{
+        padding-top: 140px !important;
+        padding-left: 45.5px !important;
+        padding-right: 45.5px !important;
+        br{
+            display: none;
+        }
+        .H1{
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+            font-size: 40px;
+            padding-bottom: 50px !important;
+        }
+        .PosSelector{
+            font-size: 16px;
+            margin-top: 43px !important;
+            margin-left: calc(50% - 190px) !important;
+        }
+        .RadioButtons{
+            margin-left: calc(50% - 190px) !important;
+            margin-bottom: 4px !important;
+            
+        }
+        .button{
+            margin-bottom: 50px !important;
+            display:block;
+            margin-left: auto !important;
+            margin-right:auto !important;
+        }
+        .FloatingLabelGroup{
+            left: calc(50% - 190px);
+            width: 380px;
+            input{
+                width: 380px;
+            }
+        }
+        .FileUploadWrapper{
+            left: calc(50% - 190px) !important;
+            width: 380px !important;
+        }
+        .ErrorMsg{
+            position: relative;
+            color: #CB3D40;
+            left: calc(50% - 176px);
+            font-size: 12px;
+        }
+        .ErrorPhoto{
+            position: relative;
+            color: #CB3D40;
+            left: calc(50% - 173px);
+            font-size: 12px;
+        }
+        .img{
+            display:block;
+            margin-left: auto !important;
+            margin-right:auto !important;
+            padding-bottom: 100px !important;
+        }
+    }
+
+
+}
+
+@media (min-width: 2560px) {
+    .CardsBg{
+        background-color: #F8F8F8;
+        .Cards{
+            width: -webkit-fill-available !important;
+            background-color: #F8F8F8;
+            margin-left: 635px !important;
+            margin-right: 635px !important;
+            .H1{
+                text-align: center;
+                line-height: 40px;
+                color: #000000;
+                font-size: 40px;
+                margin-bottom: 50px !important;
+            }
+            .Card{
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+                padding-top: 20px !important;
+                padding-bottom: 20px !important;
+                margin-bottom: 30px !important;
+                margin-left: 14.5px !important;
+                margin-right: 14.5px !important;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                height: 254px !important;
+                border-radius: 16px;
+                background-color: #FFFFFF;
+    
+                .Img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                }
+    
+                .UserName{
+                    margin-top: 20px !important;
+                    margin-bottom: 20px !important;
+                }
+                .UserData{
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+            }
+            .button{
+                margin-top: 20px !important;
+                display:block;
+                margin-left: auto !important;
+                margin-right:auto !important;
+            }
+        }
+    }
+}

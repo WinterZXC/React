@@ -1,0 +1,22 @@
+.button {
+  height: 34px;
+  border: none;
+  background-color: #F4E041;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 80px;
+  padding-left: 22px !important;
+  padding-right: 22px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+.button:hover {
+  background-color: #FFE302;
+}
+
+.button:disabled {
+  background-color: #B4B4B4;
+  color: rgba(255, 255, 255, 0.87);
+}/*# sourceMappingURL=Button.css.map */

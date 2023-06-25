@@ -1,0 +1,62 @@
+.FileUploadWrapper {
+  position: relative;
+  left: calc(50% - 190px) !important;
+  width: 380px !important;
+  margin-top: 47px !important;
+}
+
+.FileUploadField {
+  width: 83px;
+  height: 54px;
+}
+
+.FileUploadWrapper::before {
+  content: attr(data-text);
+  position: absolute;
+  font-size: 16px;
+  left: 82px;
+  right: 0;
+  display: inline-block;
+  height: 54px;
+  background-color: #F8F8F8;
+  color: #7E7E7E;
+  border: 1px solid #D0CFCF;
+  padding-left: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 0px 4px 4px 0px;
+  pointer-events: none;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.FileUploadWrapper::after {
+  content: "Upload";
+  font-size: 16px;
+  position: absolute;
+  width: 83px;
+  height: 54px;
+  top: 0;
+  left: 0;
+  background-color: #F8F8F8;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 4px 0px 0px 4px;
+  pointer-events: none;
+}
+
+.Error::after {
+  border: 2px solid #CB3D40;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.Error::before {
+  border: 2px solid #CB3D40;
+  border-radius: 0px 4px 4px 0px;
+}/*# sourceMappingURL=UploadFile.css.map */

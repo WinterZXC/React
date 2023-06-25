@@ -1,0 +1,55 @@
+.FloatingLabelGroup{
+    position: relative;
+    left: calc(50% - 190px);
+    width: 380px;
+
+    .Input{
+        background-color: #F8F8F8;
+        height: 54px;
+        width: 380px;
+        border: 1px solid #D0CFCF;
+        border-radius: 4px;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+        padding-left: 16px !important;
+    }
+    .Input:focus{
+        border: 1px solid #D0CFCF;
+        background-color: #F8F8F8;
+        outline: none;
+    }
+    .FloatingLabel {
+		color: #7E7E7E;
+		position: absolute;
+		pointer-events: none;
+		top: 14px;
+		left: 16px;
+		transition: all 0.2s ease;
+	}
+    input:focus ~ .FloatingLabel,
+	input:not(:focus):not(:placeholder-shown):valid ~ .FloatingLabel {
+        background-color: #F8F8F8;
+		top: -10px;
+		left: 12px;
+		font-size: 12px;
+		color: #7E7E7E;
+        padding-left: 4px !important;
+        padding-right: 3px !important;
+	}
+
+    .Error{
+        border: 2px solid #CB3D40;
+        border-radius: 4px;
+    }
+    .Error:focus{
+        border: 2px solid #CB3D40;
+        border-radius: 4px;
+        background-color: #F8F8F8;
+        outline: none;
+    }
+
+    
+    
+    
+    
+}

@@ -1,0 +1,45 @@
+$spinner-width: 5px;
+$spinner-color: #00BDD3;
+
+.spinner {
+  border-width: $spinner-width;
+  border-style: solid;
+  border-color: $spinner-color $spinner-color $spinner-color transparent;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  animation: spin 1.5s infinite;
+  position: relative;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  
+  margin: 6em auto;
+  
+  &:before, &:after {
+    content: '';
+    width: $spinner-width;
+    height: $spinner-width;
+    border-radius: 50%;
+    background: $spinner-color;
+    position: absolute;
+    left: $spinner-width;
+  }
+  
+  &:before {
+    top: 1.5px;
+    left: 1px;
+  }
+  
+  &:after {
+    top: 31.5px;
+    left: 1px;
+  }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+  }

@@ -1,0 +1,49 @@
+.spinner {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #00BDD3 #00BDD3 #00BDD3 transparent;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  -webkit-animation: spin 1.5s infinite;
+          animation: spin 1.5s infinite;
+  position: relative;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin: 6em auto;
+}
+.spinner:before, .spinner:after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #00BDD3;
+  position: absolute;
+  left: 5px;
+}
+.spinner:before {
+  top: 1.5px;
+  left: 1px;
+}
+.spinner:after {
+  top: 31.5px;
+  left: 1px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=Spinner.css.map */

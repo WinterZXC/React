@@ -1,0 +1,10 @@
+.TopRectangle {
+  background-color: #161616;
+  height: 60px;
+}
+
+@media (max-width: 359px) {
+  .TopRectangle {
+    width: 360px;
+  }
+}/*# sourceMappingURL=TopRectangle.css.map */
